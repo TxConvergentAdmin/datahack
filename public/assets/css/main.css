@@ -187,7 +187,7 @@ html {
 }
 
 body {
-  background: #312450;
+  background: #245046;
 }
 
 body.is-preload *,
@@ -306,10 +306,10 @@ h1.major {
 }
 
 h1.major:after {
-  background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: linear-gradient(to right, #5e42a6, #b74e91);
+  background-image: -moz-linear-gradient(to right, #42a653, #4eb7a4);
+  background-image: -webkit-linear-gradient(to right, #42a653, #4eb7a4);
+  background-image: -ms-linear-gradient(to right, #42a653, #4eb7a4);
+  background-image: linear-gradient(to right, #42a653, #4eb7a4);
   -moz-transition: max-width 0.2s ease;
   -webkit-transition: max-width 0.2s ease;
   -ms-transition: max-width 0.2s ease;
@@ -2012,7 +2012,7 @@ input[type='button'].primary,
 button.primary,
 .button.primary {
   background-color: #ffffff;
-  color: #312450 !important;
+  color: #245046 !important;
 }
 
 input[type='submit'].primary:after,
@@ -2446,7 +2446,7 @@ select {
 
 select option {
   color: #ffffff;
-  background: #312450;
+  background: #245046;
 }
 
 select:focus::-ms-value {
@@ -2534,7 +2534,7 @@ input[type='checkbox']:checked + label:before,
 input[type='radio']:checked + label:before {
   background: #ffffff;
   border-color: #ffffff;
-  color: #b74e91;
+  color: #4eb7a4;
   content: '\f00c';
 }
 
@@ -2615,7 +2615,7 @@ input[type='radio'] + label:before {
   display: block;
   background: #ffffff;
   border-radius: 100%;
-  color: #312450;
+  color: #245046;
   text-align: center;
   line-height: 2.5em;
   margin: 0 0 1.3em 0;
@@ -2626,7 +2626,7 @@ input[type='radio'] + label:before {
 }
 
 .wrapper.style1 .icon.major:before {
-  color: #5e42a6;
+  color: #42a653;
 }
 
 .wrapper.style1-alt .icon.major:before {
@@ -2642,7 +2642,7 @@ input[type='radio'] + label:before {
 }
 
 .wrapper.style3 .icon.major:before {
-  color: #b74e91;
+  color: #4eb7a4;
 }
 
 .wrapper.style3-alt .icon.major:before {
@@ -3313,7 +3313,7 @@ table.alt tfoot {
 }
 
 .wrapper.style1 {
-  background-color: #5e42a6;
+  background-color: #42a653;
 }
 
 .wrapper.style1-alt {
@@ -3329,7 +3329,7 @@ table.alt tfoot {
 }
 
 .wrapper.style3 {
-  background-color: #b74e91;
+  background-color: #4eb7a4;
 }
 
 .wrapper.style3-alt {
@@ -3439,7 +3439,7 @@ body.is-preload .wrapper.fade > .inner {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  background-color: #5e42a6;
+  background-color: #42a653;
   cursor: default;
   padding: 1.75em 2em;
 }
@@ -3583,7 +3583,7 @@ body.is-preload .wrapper.fade > .inner {
 
 #sidebar {
   padding: 2.5em 2.5em 0.5em 2.5em;
-  background: #312450;
+  background: #245046;
   cursor: default;
   height: 100vh;
   left: 0;
@@ -3821,14 +3821,14 @@ body.is-ie #sidebar > .inner {
 }
 
 #sidebar nav a:before {
-  background: #3c2c62;
+  background: #2c6253;
 }
 
 #sidebar nav a:after {
-  background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: linear-gradient(to right, #5e42a6, #b74e91);
+  background-image: -moz-linear-gradient(to right, #42a653, #4eb7a4);
+  background-image: -webkit-linear-gradient(to right, #42a653, #4eb7a4);
+  background-image: -ms-linear-gradient(to right, #42a653, #4eb7a4);
+  background-image: linear-gradient(to right, #42a653, #4eb7a4);
   -moz-transition: max-width 0.2s ease;
   -webkit-transition: max-width 0.2s ease;
   -ms-transition: max-width 0.2s ease;
@@ -3916,7 +3916,7 @@ body.is-preload #sidebar nav ul li {
 
   #sidebar nav a:after {
     background-image: none;
-    background-color: #b74e91;
+    background-color: #4eb7a4;
   }
 }
 
