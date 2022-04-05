@@ -271,6 +271,7 @@ i {
 
 p {
   margin: 0 0 2em 0;
+  color: #b2c4e2;
 }
 
 h1,
@@ -279,7 +280,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #ffffff;
+  color: #b2c4e2;
   font-weight: bold;
   line-height: 1.5;
   margin: 0 0 0.5em 0;
@@ -1930,9 +1931,9 @@ button,
   transition: border-color 0.2s ease;
   background-color: transparent;
   border: solid 1px !important;
-  border-color: rgba(255, 255, 255, 0.15) !important;
-  border-radius: 3em;
-  color: #ffffff !important;
+  border-color: #faf7a9  !important;
+  border-radius: 5em;
+  color: #faf7a9  !important;
   cursor: pointer;
   display: inline-block;
   font-size: 0.6em;
@@ -2578,6 +2579,7 @@ input[type='radio'] + label:before {
   text-decoration: none;
   border-bottom: none;
   position: relative;
+  color: #FAF7B4;
 }
 
 .icon:before {
@@ -2613,9 +2615,9 @@ input[type='radio'] + label:before {
   width: 2.5em;
   height: 2.5em;
   display: block;
-  background: #ffffff;
+  background: #0b1315;
   border-radius: 100%;
-  color: #245046;
+  color: #FAF7B4;
   text-align: center;
   line-height: 2.5em;
   margin: 0 0 1.3em 0;
@@ -2626,7 +2628,7 @@ input[type='radio'] + label:before {
 }
 
 .wrapper.style1 .icon.major:before {
-  color: #42a653;
+  color: #FAF7B4;
 }
 
 .wrapper.style1-alt .icon.major:before {
@@ -2642,7 +2644,7 @@ input[type='radio'] + label:before {
 }
 
 .wrapper.style3 .icon.major:before {
-  color: #4eb7a4;
+  color: #faf7a9;
 }
 
 .wrapper.style3-alt .icon.major:before {
@@ -2765,8 +2767,9 @@ ul.actions {
   display: flex;
   cursor: default;
   list-style: none;
-  margin-left: -1em;
+  margin-left: auto;
   padding-left: 0;
+  justify-content: right;
 }
 
 ul.actions li {
@@ -2958,7 +2961,7 @@ article.special {
 }
 
 header p {
-  color: rgba(255, 255, 255, 0.35);
+  color: #b2c4e2;
   position: relative;
   margin: 0 0 1.5em 0;
 }
@@ -3284,10 +3287,17 @@ table.alt tfoot {
   position: relative;
 }
 
+.wrapper > .event-info {
+  min-height: 50%;
+  max-width: 100%;
+  width: 75em;
+  height: 25em;
+}
+
 .wrapper > .inner {
   padding: 5em 5em 3em 5em;
   max-width: 100%;
-  width: 75em;
+  width: 85em;
 }
 
 @media screen and (max-width: 1680px) {
@@ -3309,27 +3319,28 @@ table.alt tfoot {
 }
 
 .wrapper.alt {
-  background-color: #261c3e;
+  background-color: #0b1315;
 }
 
 .wrapper.style1 {
-  background-color: #42a653;
+  background-color: #0b1315;
 }
 
 .wrapper.style1-alt {
-  background-color: #493382;
+  background-color: #323b3f
+  ;
 }
 
 .wrapper.style2 {
-  background-color: #5052b5;
+  background-color: #0b1315;
 }
 
 .wrapper.style2-alt {
-  background-color: #3e4094;
+  background-color: #0b1315;
 }
 
 .wrapper.style3 {
-  background-color: #4eb7a4;
+  background-color: #0b1315;
 }
 
 .wrapper.style3-alt {
@@ -3930,7 +3941,7 @@ body.is-preload #sidebar nav ul li {
 
 #intro {
   background-attachment: fixed;
-  background-image: url('images/intro.png');
+  background-image: url('images/datahack2022_Website_noButtons.png');
   background-position: top right;
   background-repeat: no-repeat;
   background-size: 100% 100%;
