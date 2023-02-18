@@ -2013,7 +2013,7 @@ input[type='button'].primary,
 button.primary,
 .button.primary {
   background-color: #ffffff;
-  color: #245046 !important;
+  color: #0f2822 !important;
 }
 
 input[type='submit'].primary:after,
@@ -2447,7 +2447,7 @@ select {
 
 select option {
   color: #ffffff;
-  background: #245046;
+  background: #1a1c1c;
 }
 
 select:focus::-ms-value {
@@ -2628,11 +2628,11 @@ input[type='radio'] + label:before {
 }
 
 .wrapper.style1 .icon.major:before {
-  color: #0d867e;
+  color: #191919;
 }
 
 .wrapper.style1-alt .icon.major:before {
-  color: #493382;
+  color: #401c76;
 }
 
 .wrapper.style2 .icon.major:before {
@@ -3327,7 +3327,7 @@ table.alt tfoot {
 }
 
 .wrapper.style1-alt {
-  background-color: #323b3f
+  background-color: #202020
   ;
 }
 
@@ -3450,7 +3450,7 @@ body.is-preload .wrapper.fade > .inner {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  background-color: #42a653;
+  background-color: #222b23;
   cursor: default;
   padding: 1.75em 2em;
 }
