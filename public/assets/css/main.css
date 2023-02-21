@@ -271,7 +271,7 @@ i {
 
 p {
   margin: 0 0 2em 0;
-  color: #b2c4e2;
+  color: #97C9F1;
 }
 
 h1,
@@ -280,7 +280,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #b2c4e2;
+  color: #8791F2;
   font-weight: bold;
   line-height: 1.5;
   margin: 0 0 0.5em 0;
@@ -1931,9 +1931,9 @@ button,
   transition: border-color 0.2s ease;
   background-color: transparent;
   border: solid 1px !important;
-  border-color: #faf7a9  !important;
+  border-color: #DEF190  !important;
   border-radius: 5em;
-  color: #faf7a9  !important;
+  color: #DEF190  !important;
   cursor: pointer;
   display: inline-block;
   font-size: 0.6em;
@@ -2013,7 +2013,7 @@ input[type='button'].primary,
 button.primary,
 .button.primary {
   background-color: #ffffff;
-  color: #245046 !important;
+  color: #0f2822 !important;
 }
 
 input[type='submit'].primary:after,
@@ -2447,7 +2447,7 @@ select {
 
 select option {
   color: #ffffff;
-  background: #245046;
+  background: #1a1c1c;
 }
 
 select:focus::-ms-value {
@@ -2628,15 +2628,15 @@ input[type='radio'] + label:before {
 }
 
 .wrapper.style1 .icon.major:before {
-  color: #FAF7B4;
+  color: #191919;
 }
 
 .wrapper.style1-alt .icon.major:before {
-  color: #493382;
+  color: #401c76;
 }
 
 .wrapper.style2 .icon.major:before {
-  color: #5052b5;
+  color: #b55050;
 }
 
 .wrapper.style2-alt .icon.major:before {
@@ -2644,7 +2644,7 @@ input[type='radio'] + label:before {
 }
 
 .wrapper.style3 .icon.major:before {
-  color: #faf7a9;
+  color: #DEF190;
 }
 
 .wrapper.style3-alt .icon.major:before {
@@ -2961,7 +2961,7 @@ article.special {
 }
 
 header p {
-  color: #b2c4e2;
+  color: #7e970f;
   position: relative;
   margin: 0 0 1.5em 0;
 }
@@ -3152,11 +3152,11 @@ body.is-ie .spotlights > section {
 }
 
 .spotlights > section:nth-child(2) {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color:#25caeb;
 }
 
 .spotlights > section:nth-child(3) {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(62, 127, 21, 0.1);
 }
 
 .spotlights > section.inactive > .image:before,
@@ -3323,16 +3323,16 @@ table.alt tfoot {
 }
 
 .wrapper.style1 {
-  background-color: #0b1315;
+  background-color: #191919;
 }
 
 .wrapper.style1-alt {
-  background-color: #323b3f
+  background-color: #202020
   ;
 }
 
 .wrapper.style2 {
-  background-color: #0b1315;
+  background-color: #191919;
 }
 
 .wrapper.style2-alt {
@@ -3340,7 +3340,7 @@ table.alt tfoot {
 }
 
 .wrapper.style3 {
-  background-color: #0b1315;
+  background-color: #191919;
 }
 
 .wrapper.style3-alt {
@@ -3450,7 +3450,7 @@ body.is-preload .wrapper.fade > .inner {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  background-color: #42a653;
+  background-color: #222b23;
   cursor: default;
   padding: 1.75em 2em;
 }
@@ -3941,7 +3941,7 @@ body.is-preload #sidebar nav ul li {
 
 #intro {
   background-attachment: fixed;
-  background-image: url('images/datahack2022_Website_noButtons.png');
+  background-image: url('images/dataHack2023_website.png');
   background-position: top right;
   background-repeat: no-repeat;
   background-size: 100% 100%;
