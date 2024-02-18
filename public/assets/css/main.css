@@ -3947,6 +3947,10 @@ body.is-preload #sidebar nav ul li {
   background-size: 100% 100%;
 }
 
+#intro .inner{
+  margin-top: 250px;
+}
+
 #intro p {
   font-size: 1.25em;
 }
