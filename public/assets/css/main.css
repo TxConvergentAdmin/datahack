@@ -3941,10 +3941,14 @@ body.is-preload #sidebar nav ul li {
 
 #intro {
   background-attachment: fixed;
-  background-image: url('images/dataHack2023_website.png');
+  background-image: url('images/dataHack2024_website.png');
   background-position: top right;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+
+#intro .inner{
+  margin-top: 250px;
 }
 
 #intro p {
